@@ -56,15 +56,57 @@ a:active{
 	outline: 0;
 }
 
+.btn-amarillo {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 7px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 20px;
+  background-color: #fec601;
+  -webkit-box-shadow: 0 4px 0 #F3a401, 0 15px 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 0 #fec601, 0 15px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 0 #f3a401, 0 7px 16px rgba(0, 0, 0, 0.37);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  color: #fff;
+}
+.btn-rojo{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 7px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 20px;
+  background-color: #f72100;
+  -webkit-box-shadow: 0 4px 0 #b80500, 0 15px 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 0 #fec601, 0 15px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 0 #b80500, 0 7px 16px rgba(0, 0, 0, 0.37);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  color: #fff;
+}
+
+
 /*========== FONT ==========*/
 .f-11{
   font-size: 11px;
+}
+.f-17{
+  font-size: 17px;
 }
 .f-600{
   font-weight: 600;
 }
 
 /*========== COLOR ==========*/
+.c-white{
+  color: #fff;
+}
 
 /*========== PADDING-MARGIN ==========*/
 .mg-0{

@@ -46,14 +46,54 @@ a:active {
   text-decoration: none;
   outline: 0; }
 
+.btn-amarillo {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 7px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 20px;
+  background-color: #fec601;
+  -webkit-box-shadow: 0 4px 0 #F3a401, 0 15px 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 0 #fec601, 0 15px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 0 #f3a401, 0 7px 16px rgba(0, 0, 0, 0.37);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  color: #fff; }
+
+.btn-rojo {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 7px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 20px;
+  background-color: #f72100;
+  -webkit-box-shadow: 0 4px 0 #b80500, 0 15px 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 0 #fec601, 0 15px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 0 #b80500, 0 7px 16px rgba(0, 0, 0, 0.37);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  color: #fff; }
+
 /*========== FONT ==========*/
 .f-11 {
   font-size: 11px; }
+
+.f-17 {
+  font-size: 17px; }
 
 .f-600 {
   font-weight: 600; }
 
 /*========== COLOR ==========*/
+.c-white {
+  color: #fff; }
+
 /*========== PADDING-MARGIN ==========*/
 .mg-0 {
   margin: 0; }
@@ -129,12 +169,28 @@ a:active {
   background-repeat: no-repeat;
   background-position-y: 0; }
 
+/*========== IMG-PORTADA ==========*/
 .img-portada {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../assets/imagenes/bg-home.jpg); }
   .img-portada .row {
-    padding: 9em 0; }
+    padding-top: 9em; }
+
+.text-portada {
+  margin-left: 6em;
+  margin-top: 7em; }
+  .text-portada h1 span {
+    color: #c0e4fe; }
+  .text-portada p {
+    line-height: 1.2; }
+
+.botones-portada {
+  margin-top: 3em; }
+
+@media only screen and (max-width: 765px) and (min-width: 0) {
+  .text-portada {
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */

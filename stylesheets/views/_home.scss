@@ -1,9 +1,34 @@
+/*========== IMG-PORTADA ==========*/
 .img-portada{
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+	height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 	background-image: url(../assets/imagenes/bg-home.jpg);
 	.row{
-		padding: 9em 0;
+    padding-top: 9em;
 	}
+}
+.text-portada{
+  margin-left: 6em;
+  margin-top: 7em;
+	h1{
+		span{
+			color: #c0e4fe;
+		}
+	}
+	p{
+    line-height: 1.2;
+	}
+}
+.botones-portada{
+    margin-top: 3em;
+}
+
+@media only screen and (max-width: 765px) and (min-width: 0){
+	.text-portada{
+		margin:0; 
+	}
+}
+
+@media only screen and (max-width: 765px) and (min-width: 0)and (orientation: landscape) {
 }
