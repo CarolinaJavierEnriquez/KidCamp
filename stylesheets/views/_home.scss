@@ -5,9 +5,14 @@
   background-size: cover;
 	background-image: url(../assets/imagenes/bg-home.jpg);
 	.row{
-    padding-top: 9em;
+   
 	}
 }
+	.dv-portada{
+		position: absolute;
+    bottom: 0;
+    width: 100%;
+	}
 .text-portada{
   margin-left: 6em;
   margin-top: 7em;

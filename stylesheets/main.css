@@ -92,7 +92,13 @@ a:active {
 
 /*========== COLOR ==========*/
 .c-white {
-  color: #fff; }
+  color: #fff !important; }
+
+.c-yellow {
+  color: #f3a401 !important; }
+
+.c-black {
+  color: #000 !important; }
 
 /*========== PADDING-MARGIN ==========*/
 .mg-0 {
@@ -147,6 +153,14 @@ a:active {
   .navbar-default .nav {
     padding: 10px 0; }
 
+.navbar-nav > li > a {
+  padding: 2px 15px;
+  margin: 0 8px; }
+
+.navbar-nav > li > a.active {
+  border-radius: 15px;
+  border: 1px solid #cacaca; }
+
 .navbar-brand {
   margin: 0 35px !important; }
 
@@ -175,8 +189,11 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../assets/imagenes/bg-home.jpg); }
-  .img-portada .row {
-    padding-top: 9em; }
+
+.dv-portada {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .text-portada {
   margin-left: 6em;

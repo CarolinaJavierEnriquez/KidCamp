@@ -7,6 +7,14 @@
     padding: 10px 0;
 	}
 }
+.navbar-nav>li>a {
+  padding: 2px 15px;
+  margin: 0 8px;
+}
+.navbar-nav>li>a.active{
+  border-radius: 15px;
+  border: 1px solid #cacaca;
+}
 .navbar-brand{
   margin: 0 35px !important;
 }

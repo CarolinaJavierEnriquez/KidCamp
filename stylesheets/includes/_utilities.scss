@@ -105,7 +105,13 @@ a:active{
 
 /*========== COLOR ==========*/
 .c-white{
-  color: #fff;
+  color: #fff !important;
+}
+.c-yellow{
+  color: #f3a401 !important;
+}
+.c-black{
+  color: #000 !important;
 }
 
 /*========== PADDING-MARGIN ==========*/
