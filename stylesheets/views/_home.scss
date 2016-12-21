@@ -8,11 +8,11 @@
    
 	}
 }
-	.dv-portada{
-		position: absolute;
-    bottom: 0;
-    width: 100%;
-	}
+.dv-portada{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 .text-portada{
   margin-left: 6em;
   margin-top: 7em;
@@ -29,6 +29,10 @@
     margin-top: 3em;
 }
 
+.img-1{
+	width: 50%;
+	margin: 0 auto;
+}
 @media only screen and (max-width: 765px) and (min-width: 0){
 	.text-portada{
 		margin:0; 
