@@ -11,7 +11,7 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Asap";
   letter-spacing: 0.060px; }
 
 img {
@@ -36,8 +36,13 @@ img {
     padding-right: 14px;
     margin: 0 auto; } }
 @font-face {
-  font-family: "Soft_Marshmallow";
-  src: url("../assets/font/Soft_Marshmallow.otf");
+  font-family: "TheKingsoftheHouse-Regular";
+  src: url("../assets/font/TheKingsoftheHouse-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Folks-Normal";
+  src: url("../assets/font/Folks-Normal.ttf");
   font-weight: normal;
   font-style: normal; }
 a:hover,
@@ -97,11 +102,17 @@ a:active {
 .c-yellow {
   color: #f3a401 !important; }
 
+.c-yellow2 {
+  color: #ffff00; }
+
 .c-black {
   color: #000 !important; }
 
 .bg-green {
-  background-color: #62b342; }
+  background-color: #57b02f; }
+
+.bg-espacio {
+  background-color: #12123a; }
 
 /*========== PADDING-MARGIN ==========*/
 .mg-0 {
@@ -281,28 +292,98 @@ a:active {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 100%;
   background-image: url(../assets/imagenes/bg-home.jpg); }
 
 .dv-portada {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   width: 100%; }
 
 .text-portada {
   margin-left: 6em;
   margin-top: 7em; }
-  .text-portada h1 span {
-    color: #c0e4fe; }
   .text-portada p {
     line-height: 1.2; }
 
 .botones-portada {
+  font-family: "Fredoka One";
+  letter-spacing: 1px;
   margin-top: 3em; }
+  .botones-portada i {
+    margin-left: 5px; }
 
-.img-1 {
-  width: 50%;
+/*========== JOIN OUR TRIBE ==========*/
+.join .personaje-1 {
+  width: 60%;
   margin: 0 auto; }
+.join .dev-join {
+  margin-top: 50px; }
+  .join .dev-join h1 {
+    margin-bottom: 25px;
+    font-size: 60px;
+    font-family: "TheKingsoftheHouse-Regular"; }
+  .join .dev-join .list-join ul {
+    list-style: none; }
+    .join .dev-join .list-join ul li {
+      margin-bottom: 20px;
+      display: inline-block; }
+    .join .dev-join .list-join ul li:nth-child(1):after {
+      content: url(../assets/imagenes/flecha1.png);
+      position: relative;
+      right: 300px;
+      top: 55px; }
+    .join .dev-join .list-join ul li:nth-child(2):after {
+      content: url(../assets/imagenes/flecha2.png);
+      position: relative;
+      right: 300px;
+      top: 50px; }
+    .join .dev-join .list-join ul p {
+      color: #fffcdf; }
+  .join .dev-join .list-join .number, .join .dev-join .list-join .dev-list-join {
+    display: inline-block; }
+  .join .dev-join .list-join .dev-list-join {
+    margin-left: 20px; }
+  .join .dev-join .list-join .number {
+    position: relative;
+    top: -20px; }
+    .join .dev-join .list-join .number img {
+      width: 65px; }
 
+/*========== CAMPING ACTIVITIES ==========*/
+.camping {
+  background-image: url(../assets/imagenes/puntitos-espacio.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .camping .bg-extra {
+    padding: 37px;
+    background-size: cover;
+    background-image: url(../assets/imagenes/green-line.png); }
+  .camping .title span {
+    font-family: "TheKingsoftheHouse-Regular"; }
+  .camping .title h1 img {
+    width: 46px;
+    top: -11px;
+    position: relative; }
+
+.slider-actividad {
+  margin: 40px 100px; }
+
+.slick-slide {
+  height: auto !important; }
+
+.box-actividad {
+  border-radius: 94px 94px 104px 104px;
+  padding: 25px;
+  margin: 10px; }
+  .box-actividad p {
+    font-size: 12px; }
+
+.img-actividad img {
+  border: 7px solid #fff;
+  border-radius: 58px; }
+
+/*========== CAMPING ACTIVITIES ==========*/
 @media only screen and (max-width: 765px) and (min-width: 0) {
   .text-portada {
     margin: 0; } }

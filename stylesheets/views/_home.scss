@@ -3,36 +3,127 @@
 	height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 100%;
 	background-image: url(../assets/imagenes/bg-home.jpg);
-	.row{
-   
-	}
 }
 .dv-portada{
 	position: absolute;
-	bottom: 0;
-	width: 100%;
+  bottom: 20px;
+  width: 100%;
 }
 .text-portada{
   margin-left: 6em;
   margin-top: 7em;
-	h1{
-		span{
-			color: #c0e4fe;
-		}
-	}
 	p{
     line-height: 1.2;
 	}
 }
 .botones-portada{
-    margin-top: 3em;
+	 font-family: "Fredoka One";
+	 letter-spacing: 1px;
+   margin-top: 3em;
+   i{
+	    margin-left: 5px;
+   }
+}
+/*========== JOIN OUR TRIBE ==========*/
+.join{
+	.personaje-1{
+		width: 60%;
+		margin: 0 auto;
+	}
+	.dev-join{
+		margin-top: 50px;
+		h1{
+			margin-bottom: 25px;
+			font-size: 60px;
+			font-family: "TheKingsoftheHouse-Regular";
+		}
+		.list-join{
+			ul{
+				list-style: none;
+				li{
+					margin-bottom: 20px;
+			    display: inline-block;
+				}
+				li:nth-child(1){
+					&:after{
+						content:url(../assets/imagenes/flecha1.png);
+				    position: relative;
+				    right: 300px;
+    				top: 55px;
+					}
+				}
+				li:nth-child(2){
+					&:after{
+						content:url(../assets/imagenes/flecha2.png);
+				    position: relative;
+    				right: 300px;
+    				top: 50px;
+					}
+				}
+				p{
+					color: #fffcdf;
+				}
+			}
+			.number, .dev-list-join{
+				display: inline-block;
+			}
+			.dev-list-join{
+		    margin-left: 20px;
+			}
+			.number{
+				position: relative;
+				top: -20px;
+				img{
+					width: 65px;
+				}
+			}
+		}
+
+	}
 }
 
-.img-1{
-	width: 50%;
-	margin: 0 auto;
+/*========== CAMPING ACTIVITIES ==========*/
+.camping{
+	background-image: url(../assets/imagenes/puntitos-espacio.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.bg-extra{
+		padding: 37px;
+    background-size: cover;
+		background-image: url(../assets/imagenes/green-line.png)
+	}
+	.title span{
+    font-family: "TheKingsoftheHouse-Regular";
+	}
+	.title h1 img{
+		width: 46px;
+    top: -11px;
+    position: relative;
+	}
 }
+.slider-actividad{
+	margin: 40px 100px;
+}
+.slick-slide{
+	height: auto !important;
+}
+.box-actividad{
+	border-radius: 94px 94px 104px 104px; 
+	padding: 25px;
+	margin: 10px;
+	p{
+		font-size: 12px;
+	}
+}
+.img-actividad img{
+	border: 7px solid #fff;
+	border-radius: 58px;
+}
+
+/*========== CAMPING ACTIVITIES ==========*/
+
 @media only screen and (max-width: 765px) and (min-width: 0){
 	.text-portada{
 		margin:0; 

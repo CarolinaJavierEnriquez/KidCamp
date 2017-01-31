@@ -9,7 +9,7 @@ html,body {
  height: 100%; 
  padding: 0; 
  margin: 0;
- font-family: Helvetica, Arial, sans-serif;
+ font-family: "Asap";
  letter-spacing: 0.060px;
 }
 img{
@@ -43,11 +43,19 @@ img{
 }
 
 @font-face {
-  font-family: "Soft_Marshmallow";
-  src: url("../assets/font/Soft_Marshmallow.otf");
+  font-family: "TheKingsoftheHouse-Regular";
+  src: url("../assets/font/TheKingsoftheHouse-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Folks-Normal";
+  src: url("../assets/font/Folks-Normal.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 a:hover,
 a:focus,
@@ -110,11 +118,17 @@ a:active{
 .c-yellow{
   color: #f3a401 !important;
 }
+.c-yellow2{
+  color: #ffff00;
+}
 .c-black{
   color: #000 !important;
 }
 .bg-green{
-  background-color: #62b342;
+  background-color: #57b02f;
+}
+.bg-espacio{
+  background-color: #12123a;
 }
 
 /*========== PADDING-MARGIN ==========*/
