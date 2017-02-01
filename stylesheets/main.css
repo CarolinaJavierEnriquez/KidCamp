@@ -86,6 +86,9 @@ a:active {
   color: #fff; }
 
 /*========== FONT ==========*/
+h1 {
+  font-size: 45px; }
+
 .f-11 {
   font-size: 11px; }
 
@@ -125,6 +128,9 @@ a:active {
 /*========== SLIDER ==========*/
 .slick-dots {
   display: none !important; }
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important; }
 
 /*========== SOMBRA ==========*/
 .shadow {
@@ -331,6 +337,21 @@ a:active {
     font-size: 60px;
     font-family: "TheKingsoftheHouse-Regular"; }
 
+.list-join ul, .list-event ul {
+  list-style: none; }
+  .list-join ul li, .list-event ul li {
+    margin-bottom: 20px;
+    display: inline-block; }
+.list-join .number, .list-join .dev-list-join, .list-event .number, .list-event .dev-list-join {
+  display: inline-block; }
+.list-join .dev-list-join, .list-event .dev-list-join {
+  margin-left: 20px; }
+.list-join .number, .list-event .number {
+  position: relative;
+  top: -20px; }
+  .list-join .number img, .list-event .number img {
+    width: 65px; }
+
 .list-join ul {
   list-style: none; }
   .list-join ul li {
@@ -348,15 +369,6 @@ a:active {
     top: 50px; }
   .list-join ul p {
     color: #fffcdf; }
-.list-join .number, .list-join .dev-list-join {
-  display: inline-block; }
-.list-join .dev-list-join {
-  margin-left: 20px; }
-.list-join .number {
-  position: relative;
-  top: -20px; }
-  .list-join .number img {
-    width: 65px; }
 
 /*========== CAMPING ACTIVITIES ==========*/
 .camping {
@@ -368,15 +380,17 @@ a:active {
     padding: 37px;
     background-size: cover;
     background-image: url(../assets/imagenes/green-line.png); }
-  .camping .title span {
-    margin-bottom: 9px;
-    display: inline-block;
-    font-size: 17px;
-    font-family: "TheKingsoftheHouse-Regular"; }
-  .camping .title h1 img {
-    width: 46px;
-    top: -16px;
-    position: relative; }
+
+.title span {
+  margin-bottom: 9px;
+  display: inline-block;
+  font-size: 17px;
+  font-family: "TheKingsoftheHouse-Regular"; }
+
+.title h1 img {
+  width: 46px;
+  top: -16px;
+  position: relative; }
 
 .slider-actividad {
   margin: 40px 50px; }
@@ -400,6 +414,7 @@ a:active {
 
 /*========== OCEAN OF EMOTIONS ==========*/
 .ocean {
+  padding-bottom: 180px;
   background: #297702;
   /* Old browsers */
   background: -moz-linear-gradient(top, #297702 0%, #4fbc47 100%);
@@ -448,8 +463,79 @@ a:active {
 .img-5 {
   transform: rotate(-1deg); }
 
-.slick-dotted.slick-slider {
-  margin-bottom: 0 !important; }
+/*========== EVENT SHEDULE ==========*/
+.event {
+  background: #008bc7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #008bc7 0%, #0052aa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #008bc7 0%, #0052aa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #008bc7 0%, #0052aa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008bc7', endColorstr='#0052aa',GradientType=0 );
+  /* IE6-9 */ }
+  .event .bg-extra3 {
+    padding: 80px;
+    background-size: cover;
+    background-image: url(../assets/imagenes/line-blue.png);
+    position: relative;
+    top: -150px; }
+
+.day-event {
+  font-family: "TheKingsoftheHouse-Regular";
+  font-size: 25px; }
+
+.first .day-event {
+  color: #b8f3f2; }
+.first ul li:nth-child(1):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 300px;
+  top: 55px; }
+.first ul li:nth-child(2):after {
+  content: url(../assets/imagenes/flecha2.png);
+  position: relative;
+  right: 300px;
+  top: 50px; }
+.first ul li:nth-child(3):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 325px;
+  top: 51px; }
+.first ul li:nth-child(4):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 364px;
+  top: 50px; }
+
+.second .day-event {
+  color: #fbd482; }
+.second ul li:nth-child(1):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 300px;
+  top: 55px; }
+.second ul li:nth-child(2):after {
+  content: url(../assets/imagenes/flecha2.png);
+  position: relative;
+  right: 300px;
+  top: 50px; }
+.second ul li:nth-child(3):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 325px;
+  top: 51px; }
+.second ul li:nth-child(4):after {
+  content: url(../assets/imagenes/flecha1.png);
+  position: relative;
+  right: 364px;
+  top: 50px; }
+.second ul li:nth-child(5):after {
+  content: url(../assets/imagenes/flecha2.png);
+  position: relative;
+  right: 260px;
+  top: 50px; }
 
 @media only screen and (max-width: 765px) and (min-width: 0) {
   .text-portada {

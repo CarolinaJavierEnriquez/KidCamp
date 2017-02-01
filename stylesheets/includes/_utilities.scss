@@ -101,6 +101,9 @@ a:active{
 
 
 /*========== FONT ==========*/
+h1{
+  font-size: 45px;
+}
 .f-11{
   font-size: 11px;
 }
@@ -148,6 +151,10 @@ a:active{
 .slick-dots{
   display: none !important;
 }
+.slick-dotted.slick-slider{
+  margin-bottom: 0 !important;
+}
+
 /*========== SOMBRA ==========*/
 .shadow {
   -webkit-box-shadow: 2px 2px 6px -4px #a1a1a1;

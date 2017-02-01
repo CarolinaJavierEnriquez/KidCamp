@@ -45,6 +45,29 @@
 	}
 }
 
+.list-join, .list-event{
+	ul{
+		list-style: none;
+		li{
+			margin-bottom: 20px;
+	    display: inline-block;
+		}
+	}
+	.number, .dev-list-join{
+		display: inline-block;
+	}
+	.dev-list-join{
+    margin-left: 20px;
+	}
+	.number{
+		position: relative;
+		top: -20px;
+		img{
+			width: 65px;
+		}
+	}
+}
+
 .list-join{
 	ul{
 		list-style: none;
@@ -72,19 +95,6 @@
 			color: #fffcdf;
 		}
 	}
-	.number, .dev-list-join{
-		display: inline-block;
-	}
-	.dev-list-join{
-    margin-left: 20px;
-	}
-	.number{
-		position: relative;
-		top: -20px;
-		img{
-			width: 65px;
-		}
-	}
 }
 
 /*========== CAMPING ACTIVITIES ==========*/
@@ -98,17 +108,17 @@
     background-size: cover;
 		background-image: url(../assets/imagenes/green-line.png)
 	}
-	.title span{
-    margin-bottom: 9px;
-    display: inline-block;
-    font-size: 17px;
-    font-family: "TheKingsoftheHouse-Regular";
-	}
-	.title h1 img{
-		width: 46px;
-    top: -16px;
-    position: relative;
-	}
+}
+.title span{
+  margin-bottom: 9px;
+  display: inline-block;
+  font-size: 17px;
+  font-family: "TheKingsoftheHouse-Regular";
+}
+.title h1 img{
+	width: 46px;
+  top: -16px;
+  position: relative;
 }
 
 .slider-actividad{
@@ -139,6 +149,7 @@
 
 /*========== OCEAN OF EMOTIONS ==========*/
 .ocean{
+	padding-bottom: 180px;
 	background: #297702; /* Old browsers */
 	background: -moz-linear-gradient(top,  #297702 0%, #4fbc47 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #297702 0%,#4fbc47 100%); /* Chrome10-25,Safari5.1-6 */
@@ -184,8 +195,111 @@
 .img-5{
   transform: rotate(-1deg);
 }
-.slick-dotted.slick-slider{
-	margin-bottom: 0 !important;
+
+/*========== EVENT SHEDULE ==========*/
+.event{
+	background: #008bc7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #008bc7 0%, #0052aa 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #008bc7 0%,#0052aa 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #008bc7 0%,#0052aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008bc7', endColorstr='#0052aa',GradientType=0 ); /* IE6-9 */
+	.bg-extra3{
+		padding: 80px;
+		background-size: cover;
+		background-image: url(../assets/imagenes/line-blue.png);
+		position: relative;
+		top: -150px;
+	}
+}
+.day-event{
+	font-family: "TheKingsoftheHouse-Regular";
+	font-size: 25px;
+}
+.first {
+	.day-event{
+		color: #b8f3f2;
+	}
+	ul{
+		li:nth-child(1){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 300px;
+				top: 55px;
+			}
+		}
+		li:nth-child(2){
+			&:after{
+				content:url(../assets/imagenes/flecha2.png);
+		    position: relative;
+				right: 300px;
+				top: 50px;
+			}
+		}
+		li:nth-child(3){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 325px;
+		    top: 51px;
+			}
+		}
+		li:nth-child(4){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 364px;
+		    top: 50px;
+			}
+		}
+	}
+}
+.second {
+	.day-event{
+		color: #fbd482;
+	}
+	ul{
+		li:nth-child(1){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 300px;
+				top: 55px;
+			}
+		}
+		li:nth-child(2){
+			&:after{
+				content:url(../assets/imagenes/flecha2.png);
+		    position: relative;
+				right: 300px;
+				top: 50px;
+			}
+		}
+		li:nth-child(3){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 325px;
+		    top: 51px;
+			}
+		}	
+		li:nth-child(4){
+			&:after{
+				content:url(../assets/imagenes/flecha1.png);
+		    position: relative;
+		    right: 364px;
+		    top: 50px;
+			}
+		}
+		li:nth-child(5){
+			&:after{
+				content:url(../assets/imagenes/flecha2.png);
+		    position: relative;
+		    right: 260px;
+		    top: 50px;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 765px) and (min-width: 0){
