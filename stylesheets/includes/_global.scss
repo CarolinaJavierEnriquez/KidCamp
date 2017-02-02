@@ -30,13 +30,13 @@
   background-color: #fff;
 }
 .navbar-default::before{
-    position: relative;
-    width: 100%;
-    top: -40px;
-	  background-image: url(../assets/imagenes/menu-line.png);
-	  background-size: contain;
-	  background-repeat: no-repeat;
-	  background-position-y: 0;
+  position: relative;
+  width: 100%;
+  top: -40px;
+  background-image: url(../assets/imagenes/menu-line.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0;
 } 
 
 /*========== BUSCADOR ==========*/

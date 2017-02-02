@@ -198,6 +198,7 @@
 
 /*========== EVENT SHEDULE ==========*/
 .event{
+	padding-bottom:75px;
 	background: #008bc7; /* Old browsers */
 	background: -moz-linear-gradient(top,  #008bc7 0%, #0052aa 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #008bc7 0%,#0052aa 100%); /* Chrome10-25,Safari5.1-6 */
@@ -210,10 +211,15 @@
 		position: relative;
 		top: -150px;
 	}
+	.list-event{
+		margin-left: 100px;
+	}
 }
+
 .day-event{
 	font-family: "TheKingsoftheHouse-Regular";
 	font-size: 25px;
+	margin: 3em 0 1em;
 }
 .first {
 	.day-event{
@@ -222,7 +228,7 @@
 	ul{
 		li:nth-child(1){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 300px;
 				top: 55px;
@@ -230,7 +236,7 @@
 		}
 		li:nth-child(2){
 			&:after{
-				content:url(../assets/imagenes/flecha2.png);
+				content:url(../assets/imagenes/flecha2-2.png);
 		    position: relative;
 				right: 300px;
 				top: 50px;
@@ -238,7 +244,7 @@
 		}
 		li:nth-child(3){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 325px;
 		    top: 51px;
@@ -246,7 +252,7 @@
 		}
 		li:nth-child(4){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 364px;
 		    top: 50px;
@@ -261,7 +267,7 @@
 	ul{
 		li:nth-child(1){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 300px;
 				top: 55px;
@@ -269,7 +275,7 @@
 		}
 		li:nth-child(2){
 			&:after{
-				content:url(../assets/imagenes/flecha2.png);
+				content:url(../assets/imagenes/flecha2-2.png);
 		    position: relative;
 				right: 300px;
 				top: 50px;
@@ -277,7 +283,7 @@
 		}
 		li:nth-child(3){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 325px;
 		    top: 51px;
@@ -285,7 +291,7 @@
 		}	
 		li:nth-child(4){
 			&:after{
-				content:url(../assets/imagenes/flecha1.png);
+				content:url(../assets/imagenes/flecha1-1.png);
 		    position: relative;
 		    right: 364px;
 		    top: 50px;
@@ -293,13 +299,78 @@
 		}
 		li:nth-child(5){
 			&:after{
-				content:url(../assets/imagenes/flecha2.png);
+				content:url(../assets/imagenes/flecha2-2.png);
 		    position: relative;
 		    right: 260px;
 		    top: 50px;
 			}
 		}
 	}
+}
+
+
+/*========== OPINION ==========*/
+.opinion{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59b12f+1,84ce2f+100 */
+	background: #59b12f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #59b12f 1%, #84ce2f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #59b12f 1%,#84ce2f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #59b12f 1%,#84ce2f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b12f', endColorstr='#84ce2f',GradientType=0 ); /* IE6-9 */
+	.bg-extra4{
+    padding: 112px;
+    background-size: cover;
+    background-image: url(../assets/imagenes/pino2.png);
+    position: relative;
+    top: -220px;
+	}
+}
+.slider-opinion{
+	margin: 0 90px;
+	.number-opinion{
+		display: block;
+	  position: relative;
+	}
+  &:before{
+		content:url(../assets/imagenes/nube3.png);
+		position: relative;
+		left: 0px;
+		top: 60px;
+  }
+  &:after{
+		content:url(../assets/imagenes/nube4.png);
+		position: relative;
+    left: 857px;
+    top: -455px;
+  }
+}
+
+.bg-nube > img{
+ 	padding: 0 15px;
+}
+.contenido-opinion{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	.img-opinion img{
+		border: 7px solid #fff;
+		border-radius: 50px;
+		width: 160px;
+		margin: 0 auto;
+	}
+	.text-opinion{
+		margin-top: 15px;
+	}
+	p{
+		margin: 18px 120px;
+		font-size: 15px;
+	}
+  &:after{
+		content:url(../assets/imagenes/comillas2.png);
+		position: relative;
+		left: 350px;
+		top: -40px;
+  }
 }
 
 @media only screen and (max-width: 765px) and (min-width: 0){

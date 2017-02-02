@@ -49,13 +49,6 @@ img{
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Folks-Normal";
-  src: url("../assets/font/Folks-Normal.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 a:hover,
 a:focus,
@@ -63,7 +56,12 @@ a:active{
 	text-decoration: none;
 	outline: 0;
 }
-
+div:hover,
+div:focus,
+div:active{
+  text-decoration: none;
+  outline: 0;
+}
 .btn-amarillo {
   display: inline-block;
   margin-right: 10px;
@@ -110,6 +108,9 @@ h1{
 .f-17{
   font-size: 17px;
 }
+.f-20{
+  font-size: 20px;
+}
 .f-600{
   font-weight: 600;
 }
@@ -126,6 +127,9 @@ h1{
 }
 .c-black{
   color: #000 !important;
+}
+.c-gray{
+  color: darkgrey;
 }
 .bg-green{
   background-color: #57b02f;
@@ -148,9 +152,11 @@ h1{
 }
 
 /*========== SLIDER ==========*/
-.slick-dots{
-  display: none !important;
-}
+.slider-ocean, .slider-actividad {
+  .slick-dots{
+    display: none !important;
+  }
+} 
 .slick-dotted.slick-slider{
   margin-bottom: 0 !important;
 }
