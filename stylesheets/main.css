@@ -332,6 +332,53 @@ h1 {
   .boton i {
     margin-left: 5px; }
 
+/*========== BACKGROUND IMAGEN ENTRE SECTION ==========*/
+.bg-join, .bg-event, .bg-camping, .bg-ocean {
+  position: relative; }
+
+.bg-event:before {
+  content: ' ';
+  background-image: url(../assets/imagenes/pino2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0px;
+  display: block;
+  width: 100%;
+  height: 222px; }
+
+.bg-join:after {
+  content: ' ';
+  background-image: url(../assets/imagenes/green-line.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 51px;
+  display: block;
+  width: 100%;
+  height: 72px; }
+
+.bg-camping:before {
+  content: ' ';
+  background-size: cover;
+  background: url(../assets/imagenes/pino.png);
+  position: relative;
+  top: 1px;
+  display: block;
+  width: 100%;
+  height: 170px; }
+
+.bg-ocean:before {
+  content: ' ';
+  background-image: url(../assets/imagenes/line-blue.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0px;
+  display: block;
+  width: 100%;
+  height: 139px; }
+
 /*========== JOIN OUR TRIBE ==========*/
 .join .personaje-1 {
   width: 60%;
@@ -382,11 +429,7 @@ h1 {
   background-image: url(../assets/imagenes/puntitos-espacio.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 120px; }
-  .camping .bg-extra {
-    padding: 37px;
-    background-size: cover;
-    background-image: url(../assets/imagenes/green-line.png); }
+  padding-top: 75px; }
 
 .title span {
   margin-bottom: 9px;
@@ -421,7 +464,7 @@ h1 {
 
 /*========== OCEAN OF EMOTIONS ==========*/
 .ocean {
-  padding-bottom: 180px;
+  padding-top: 75px;
   background: #297702;
   /* Old browsers */
   background: -moz-linear-gradient(top, #297702 0%, #4fbc47 100%);
@@ -432,12 +475,6 @@ h1 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#297702', endColorstr='#4fbc47',GradientType=0 );
   /* IE6-9 */ }
-  .ocean .bg-extra2 {
-    padding: 80px;
-    background-size: cover;
-    background-image: url(../assets/imagenes/pino.png);
-    position: relative;
-    top: -160px; }
 
 .contenido-ocean {
   margin: 0 55px; }
@@ -472,7 +509,7 @@ h1 {
 
 /*========== EVENT SHEDULE ==========*/
 .event {
-  padding-bottom: 75px;
+  padding-top: 75px;
   background: #008bc7;
   /* Old browsers */
   background: -moz-linear-gradient(top, #008bc7 0%, #0052aa 100%);
@@ -483,12 +520,6 @@ h1 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008bc7', endColorstr='#0052aa',GradientType=0 );
   /* IE6-9 */ }
-  .event .bg-extra3 {
-    padding: 80px;
-    background-size: cover;
-    background-image: url(../assets/imagenes/line-blue.png);
-    position: relative;
-    top: -150px; }
   .event .list-event {
     margin-left: 100px; }
 
@@ -561,12 +592,6 @@ h1 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b12f', endColorstr='#84ce2f',GradientType=0 );
   /* IE6-9 */ }
-  .opinion .bg-extra4 {
-    padding: 112px;
-    background-size: cover;
-    background-image: url(../assets/imagenes/pino2.png);
-    position: relative;
-    top: -220px; }
 
 .slider-opinion {
   margin: 0 90px; }
