@@ -27,6 +27,9 @@
 		<!--Slick-->
 		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!--script google maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	</head>
 	<body>
 		<!--MENU-->
@@ -117,7 +120,7 @@
 									</div>
 									<div class="dev-list-join">
 										<h3 class="f-600 mg-0">Selest your house</h3>
-										<p>You can choose the house in<br>depends on your interest</p>
+										<p class="f-17">You can choose the house in<br>depends on your interest</p>
 									</div>
 								</li>
 								<li>
@@ -126,7 +129,7 @@
 									</div>
 									<div class="dev-list-join">
 										<h3 class="f-600 mg-0">Get the points.</h3>
-										<p>Take a part in different completions and<br>recelve the point for your House</p>
+										<p class="f-17">Take a part in different completions and<br>recelve the point for your House</p>
 									</div>
 								</li>
 								<li>
@@ -135,7 +138,7 @@
 									</div>
 									<div class="dev-list-join">
 										<h3 class="f-600 mg-0">Win the House Cup</h3>
-										<p>It is given at the end of the<br>camp to the House with the point.</p>
+										<p class="f-17">It is given at the end of the<br>camp to the House with the point.</p>
 									</div>
 								</li>
 							</ul>
@@ -218,8 +221,8 @@
 							<div class="col-sm-7">
 								<div class="text-ocean">
 									<span class="c-white text-uppercase">ocean of<br>emotions</span>
-									<p class="c-yellow2 f-600">from 5 to 15 years old</p>
-									<p class="c-white">Different activies for all ages and abilities are offered in a fun and motivating environment to enrich your child´s life</p>
+									<p class="f-17 c-yellow2 f-600">from 5 to 15 years old</p>
+									<p class="f-17 c-white">Different activies for all ages and abilities are offered in a fun and motivating environment to enrich your child´s life</p>
 									<div class="boton botones-portada">
 									<a class="btn-amarillo" href=""> <span>GALLERY<i class="fa fa-play-circle" aria-hidden="true"></i></span></a>
 									</div>
@@ -434,8 +437,45 @@
 					</div>
 				</div>
 			</div>
+			<div class="bg-opinion"></div>
 		</section>
-		
+		<!--MAPA GOOGLE-->
+		<section class="google-maps">
+			<div class="map">
+				<div id="map-canvas"></div>
+			</div>
+			<div class="bg-mapa"></div>
+		</section>
+		<!--CONTACTO-->
+		<section class="contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7">
+						<img src="assets/imagenes/contacto-img.png">
+					</div>
+					<div class="col-sm-5">
+						<div class="text-contacto text-center">
+							<h1 class="c-white text-uppercase">contact us</h1>
+							<p class="f-17">Please use the form bellow to cantct us. we will get back to you as soon as posible.</p>
+							<div class="formulario">
+								<div class="form form1">
+									<input type="text" name="name" class="imput-form bg-white" placeholder="Your Name" required="">
+								</div>
+								<div class="form form2">
+									<input type="text" name="email" class="imput-form bg-white" placeholder="E-mail" required="">
+								</div>
+								<div class="textarea">
+									<textarea name="mensaje" placeholder="Mensaje" cols="47" rows="6" class="bg-white"></textarea>
+								</div>
+								<div class="boton text-right">
+									<a class="btn-amarillo" href=""> <span>SEND MESSAGE<i class="fa fa-play-circle" aria-hidden="true"></i></span></a>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!--animatedjs-->
@@ -446,6 +486,5 @@
 		<script type="text/javascript" src="javascripts/menu.js"></script>
 		<!-- JS slider slick-->
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="javascripts/slider.js"></script>
-	</body>	
+    <script type="text/javascript" src="javascripts/slider.js"></script>	
 </html>	

@@ -52,16 +52,20 @@ img{
 
 a:hover,
 a:focus,
-a:active{
+a:active,
+div:hover,
+div:focus,
+div:active,
+input:hover,
+input:focus,
+input:active,
+textarea:hover,
+textarea:focus,
+textarea:active{
 	text-decoration: none;
 	outline: 0;
 }
-div:hover,
-div:focus,
-div:active{
-  text-decoration: none;
-  outline: 0;
-}
+
 .btn-amarillo {
   display: inline-block;
   margin-right: 10px;
@@ -159,6 +163,9 @@ h1{
 } 
 .slick-dotted.slick-slider{
   margin-bottom: 0 !important;
+}
+.slick-list{
+  z-index: 1;
 }
 
 /*========== SOMBRA ==========*/

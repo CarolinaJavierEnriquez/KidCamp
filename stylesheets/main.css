@@ -42,13 +42,16 @@ img {
   font-style: normal; }
 a:hover,
 a:focus,
-a:active {
-  text-decoration: none;
-  outline: 0; }
-
+a:active,
 div:hover,
 div:focus,
-div:active {
+div:active,
+input:hover,
+input:focus,
+input:active,
+textarea:hover,
+textarea:focus,
+textarea:active {
   text-decoration: none;
   outline: 0; }
 
@@ -138,6 +141,9 @@ h1 {
 
 .slick-dotted.slick-slider {
   margin-bottom: 0 !important; }
+
+.slick-list {
+  z-index: 1; }
 
 /*========== SOMBRA ==========*/
 .shadow {
@@ -333,7 +339,7 @@ h1 {
     margin-left: 5px; }
 
 /*========== BACKGROUND IMAGEN ENTRE SECTION ==========*/
-.bg-join, .bg-event, .bg-camping, .bg-ocean {
+.bg-join, .bg-event, .bg-camping, .bg-ocean, .bg-opinion, .bg-mapa {
   position: relative; }
 
 .bg-event:before {
@@ -379,6 +385,29 @@ h1 {
   width: 100%;
   height: 139px; }
 
+.bg-opinion:before {
+  content: ' ';
+  background-image: url(../assets/imagenes/green-line2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 62px; }
+
+.bg-mapa:before {
+  content: ' ';
+  background-image: url(../assets/imagenes/pino3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -168px;
+  display: block;
+  width: 100%;
+  height: 168px; }
+
 /*========== JOIN OUR TRIBE ==========*/
 .join .personaje-1 {
   width: 60%;
@@ -414,12 +443,12 @@ h1 {
   .list-join ul li:nth-child(1):after {
     content: url(../assets/imagenes/flecha1.png);
     position: relative;
-    right: 300px;
+    right: 329px;
     top: 55px; }
   .list-join ul li:nth-child(2):after {
     content: url(../assets/imagenes/flecha2.png);
     position: relative;
-    right: 300px;
+    right: 354px;
     top: 50px; }
   .list-join ul p {
     color: #fffcdf; }
@@ -486,7 +515,7 @@ h1 {
   font-family: "TheKingsoftheHouse-Regular";
   font-size: 33px;
   display: inline-block;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
 .slider-ocean img {
   border: 7px solid #fff;
@@ -584,11 +613,11 @@ h1 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59b12f+1,84ce2f+100 */
   background: #59b12f;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #59b12f 1%, #84ce2f 100%);
+  background: -moz-linear-gradient(top, #59b12f 1%, #7dca2f 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #59b12f 1%, #84ce2f 100%);
+  background: -webkit-linear-gradient(top, #59b12f 1%, #7dca2f 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #59b12f 1%, #84ce2f 100%);
+  background: linear-gradient(to bottom, #59b12f 1%, #7dca2f 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b12f', endColorstr='#84ce2f',GradientType=0 );
   /* IE6-9 */ }
@@ -606,20 +635,20 @@ h1 {
   .slider-opinion:after {
     content: url(../assets/imagenes/nube4.png);
     position: relative;
-    left: 857px;
-    top: -455px; }
+    left: 930px;
+    top: -340px; }
 
 .bg-nube > img {
   padding: 0 15px; }
 
 .contenido-opinion {
   position: absolute;
-  top: 70px;
+  top: 30px;
   width: 100%; }
   .contenido-opinion .img-opinion img {
-    border: 7px solid #fff;
-    border-radius: 50px;
-    width: 160px;
+    border: 6px solid #fff;
+    border-radius: 36px;
+    width: 133px;
     margin: 0 auto; }
   .contenido-opinion .text-opinion {
     margin-top: 15px; }
@@ -631,6 +660,76 @@ h1 {
     position: relative;
     left: 350px;
     top: -40px; }
+
+/*========== GOOGLE MAPS ==========*/
+.map #map-canvas {
+  /*-webkit-filter: grayscale(100%);*/
+  width: 100%;
+  height: 590px; }
+.map .gmnoprint {
+  display: none; }
+
+/*========== CONTACTO ==========*/
+.contacto {
+  padding-top: 25px;
+  background: #297702;
+  background: -moz-linear-gradient(top, #538611 0%, #538e07 100%);
+  background: -webkit-linear-gradient(top, #538611 0%, #538e07 100%);
+  background: linear-gradient(to bottom, #538611 0%, #538e07 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#538611', endColorstr='rgb(83, 142, 7)',GradientType=0 ); }
+
+.text-contacto {
+  margin: 0 35px; }
+
+.text-contacto p {
+  color: #b6de64; }
+
+.formulario .form, .formulario .textarea {
+  position: relative; }
+  .formulario .form input, .formulario .textarea input {
+    border-radius: 40px; }
+  .formulario .form textarea, .formulario .textarea textarea {
+    border-radius: 25px; }
+.formulario input, .formulario textarea {
+  background-color: #699217;
+  border: 0px;
+  padding: 14px 60px;
+  width: 100%;
+  margin: 7px 0; }
+
+.form1:before {
+  position: absolute;
+  top: 14px;
+  left: 21px;
+  content: url(../assets/imagenes/ficon1.png); }
+
+.form2:before {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  content: url(../assets/imagenes/ficon3.png); }
+
+.textarea:before {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  content: url(../assets/imagenes/ficon2.png); }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff; }
 
 @media only screen and (max-width: 765px) and (min-width: 0) {
   .text-portada {
