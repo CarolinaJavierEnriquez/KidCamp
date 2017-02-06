@@ -535,7 +535,7 @@
 
 /*========== FOOTER ==========*/
 footer{
-  padding-top: 3em;
+  padding: 50px 0;
   background-color: #398ee8;
 }
 .img-footer img{
@@ -559,6 +559,17 @@ footer{
 	li{
     margin: 0 10px !important;
 		float: left;
+	}
+}
+.firma{
+	background-color: #297fd9;
+	.icon-home1, .icon-home2{
+    display: inline-block;
+    margin: 2em 5em 1em;
+	}
+	.icon-home2{
+		right: 45px;
+    position: absolute;
 	}
 }
 @media only screen and (max-width: 765px) and (min-width: 0){
