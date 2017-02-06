@@ -531,6 +531,36 @@
 }
 .form{
 }
+
+
+/*========== FOOTER ==========*/
+footer{
+  padding-top: 3em;
+  background-color: #398ee8;
+}
+.img-footer img{
+    width: 65%;
+}
+.text-footer{
+	h4{
+		margin-bottom: 29px;
+	}
+	a{
+		color: #fff;
+	}
+	ul{
+		list-style: none;
+		li{
+	    margin: 12px 0;
+		}
+	}
+}
+.redes{
+	li{
+    margin: 0 10px !important;
+		float: left;
+	}
+}
 @media only screen and (max-width: 765px) and (min-width: 0){
 	.text-portada{
 		margin:0; 

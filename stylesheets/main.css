@@ -100,7 +100,7 @@ h1 {
   font-size: 17px; }
 
 .f-20 {
-  font-size: 20px; }
+  font-size: 20px !important; }
 
 .f-600 {
   font-weight: 600; }
@@ -747,6 +747,27 @@ h1 {
 :-moz-placeholder {
   /* Firefox 18- */
   color: #fff; }
+
+/*========== FOOTER ==========*/
+footer {
+  padding-top: 3em;
+  background-color: #398ee8; }
+
+.img-footer img {
+  width: 65%; }
+
+.text-footer h4 {
+  margin-bottom: 29px; }
+.text-footer a {
+  color: #fff; }
+.text-footer ul {
+  list-style: none; }
+  .text-footer ul li {
+    margin: 12px 0; }
+
+.redes li {
+  margin: 0 10px !important;
+  float: left; }
 
 @media only screen and (max-width: 765px) and (min-width: 0) {
   .text-portada {
